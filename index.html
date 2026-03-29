@@ -1,11 +1,113 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card card-header">
+        <p class="quiz-label">Quiz 02</p>
+        <h1>Small HTML + CSS Playground</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt,
+          nemo.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Text Styles</h2>
+        <p class="body-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+          assumenda alias pariatur repellat vitae harum.
+          <a href="#" class="inline-link">inline link example</a>
+          and a little <span class="highlight">highlight</span>.
+        </p>
+        <blockquote>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quae!
+        </blockquote>
+      </div>
+
+      <div class="card">
+        <h2>Lists + Badges</h2>
+        <ul class="styled-list">
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>lorme3</li>
+          <li>
+            Labels like <span class="badge">new</span>
+            <span class="badge">simple</span>
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Buttons</h2>
+        <div class="btn-row">
+          <button class="btn-primary">Primary</button>
+          <button class="btn-secondary">Secondary</button>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Form Sample</h2>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Jane Doe" />
+        </div>
+        <div class="form-group">
+          <label for="topic">Favorite Topic</label>
+          <select id="topic">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="note">Note</label>
+          <textarea id="note" placeholder="Write something..."></textarea>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Table</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Status</th>
+              <th>Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Typography</td>
+              <td>Done</td>
+              <td>Base</td>
+            </tr>
+            <tr>
+              <td>Color</td>
+              <td>Done</td>
+              <td>Base</td>
+            </tr>
+            <tr>
+              <td>Components</td>
+              <td>In Progress</td>
+              <td>Light</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <h2>Details</h2>
+        <details>
+          <summary>Why Works</summary>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
+            quod unde necessitatibus quaerat id, quas dolorem dolores pariatur
+            autem dicta.
+          </p>
+        </details>
+      </div>
+      <div class="footer-card">Built for...</div>
+    </div>
+  </body>
 </html>
